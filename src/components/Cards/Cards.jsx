@@ -1,8 +1,10 @@
+// eslint-disable-next-line no-unused-vars
 import React, {useEffect, useState} from "react"
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton"
 import "./Cards.css"
 import { Link } from "react-router-dom"
 
+// eslint-disable-next-line react/prop-types
 const Cards = ({movie}) => {
 
     const [isLoading, setIsLoading] = useState(true)

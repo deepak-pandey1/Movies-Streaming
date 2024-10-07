@@ -1,4 +1,153 @@
-.posterImage{
+.posterImage {
+    height: 600px;
+    position: relative; /* Make sure the overlay works well */
+}
+
+.posterImage > img {
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+.posterImage__overlay {
+    position: absolute;
+    padding: 5rem;
+    bottom: 0;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,1));
+    opacity: 1;
+    transition: opacity .3s;
+}
+
+.posterImage__title {
+    font-weight: 900;
+    font-size: 4rem;
+    margin-bottom: 0.4rem;
+    text-align: left;
+}
+
+.posterImage__runtime {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.posterImage__rating {
+    margin-left: 3rem;
+}
+
+.posterImage__description {
+    font-style: italic;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+    display: flex;
+    text-align: left;
+    width: 50%;
+}
+
+/* Responsiveness for smaller screens */
+@media (max-width: 1024px) {
+    .posterImage {
+        height: 500px;
+    }
+
+    .posterImage__overlay {
+        padding: 3rem;
+    }
+
+    .posterImage__title {
+        font-size: 3rem;
+    }
+
+    .posterImage__runtime {
+        font-size: 1.5rem;
+    }
+
+    .posterImage__description {
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .posterImage {
+        height: 400px;
+    }
+
+    .posterImage__overlay {
+        padding: 2rem;
+    }
+
+    .posterImage__title {
+        font-size: 2rem;
+    }
+
+    .posterImage__runtime {
+        font-size: 1.25rem;
+    }
+
+    .posterImage__description {
+        width: 75%;
+    }
+}
+
+@media (max-width: 480px) {
+    .posterImage {
+        height: 300px;
+    }
+
+    .posterImage__overlay {
+        padding: 1rem;
+    }
+
+    .posterImage__title {
+        font-size: 1.5rem;
+    }
+
+    .posterImage__runtime {
+        font-size: 1rem;
+    }
+
+    .posterImage__description {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .posterImage{
     height: 600px;
 }
 
@@ -50,4 +199,4 @@
     display: flex;
     text-align: left;
     width: 50%;
-}
+} */

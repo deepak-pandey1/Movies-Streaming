@@ -2,6 +2,86 @@
     padding: 0 3rem 3rem 3rem;
 }
 
+/* General Title Styling */
+.list__title {
+    font-size: 1.75rem;
+    margin: 2.5rem;
+    text-align: center; /* Centering title */
+}
+
+/* Flexbox for cards */
+.list__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Adds spacing between cards */
+}
+
+/* Media Queries for responsiveness */
+
+/* For tablets and small screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .movie__list {
+        padding: 0 1.5rem 2rem 1.5rem;
+    }
+
+    .list__title {
+        font-size: 1.5rem;
+        margin: 1.5rem;
+    }
+
+    .list__cards {
+        gap: 15px; /* Adjusts gap between cards */
+    }
+}
+
+/* For mobile screens (max-width: 480px) */
+@media (max-width: 480px) {
+    .movie__list {
+        padding: 0 1rem 1.5rem 1rem;
+    }
+
+    .list__title {
+        font-size: 1.2rem;
+        margin: 1rem;
+    }
+
+    .list__cards {
+        flex-direction: column; /* Stacks the cards vertically */
+        gap: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .movie__list {
+    padding: 0 3rem 3rem 3rem;
+}
+
 .list__title {
 font-size: 1.75rem;
 margin:  2.5rem;
@@ -11,4 +91,4 @@ margin:  2.5rem;
     display: flex;
     flex-wrap: wrap ;
     justify-content: center;
-}
+} */
