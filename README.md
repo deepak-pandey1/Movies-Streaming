@@ -1,6 +1,8 @@
+![image](https://github.com/user-attachments/assets/206491ec-a29d-47ed-873c-a38f3cd7e4b7)
+
 <h1>Show Project(Demo) Through Video...</h1> 
 https://github.com/user-attachments/assets/0b196c16-79a7-4c87-a783-985e9adb891a
-![image](https://github.com/user-attachments/assets/206491ec-a29d-47ed-873c-a38f3cd7e4b7)
+
 
 <h1>Movie Streaming App</h1>
 
@@ -32,7 +34,7 @@ https://github.com/user-attachments/assets/0b196c16-79a7-4c87-a783-985e9adb891a
   <li>Install the dependencies:</li>
   <pre><code>npm install</code></pre>
   <li>Start the development server:</li>
-  <pre><code>npm start</code></pre>
+  <pre><code>npm run dev</code></pre>
   <li>Open your web browser and go to <code>http://localhost:3000</code> to view the movie streaming app.</li>
 </ol>
 
