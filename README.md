@@ -1,9 +1,5 @@
 ![image](https://github.com/user-attachments/assets/206491ec-a29d-47ed-873c-a38f3cd7e4b7)
 
-<h1>Show Project(Demo) Through Video...</h1> 
-https://github.com/user-attachments/assets/0b196c16-79a7-4c87-a783-985e9adb891a
-
-
 <h1>Movie Streaming App</h1>
 
 <p>This project is a movie streaming application built with <strong>React.js</strong>. It showcases the latest, popular, and upcoming movies, providing full details such as title, description, release date, rating, and more.</p>
